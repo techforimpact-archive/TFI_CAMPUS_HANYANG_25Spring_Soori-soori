@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Jaemani/power_assist_device_helper_backend
+[submodule "web-admin"]
+	path = web-admin
+	url = https://github.com/Jaemani/soo-ri-admin
