@@ -1,8 +1,14 @@
-🛠 수리수리 마수리 – 전동보장구 수리이력 관리 시스템
+#### [API - Swagger](https://app.swaggerhub.com/apis/Jaemani/Soorisoori/1.0.0)
+#### [API 명세서(비개발자용)](#api)
+#### [MongoDB Schema 명세서](#db)
 
-2025 Kakao Tech for Impact 참여 프로젝트
-전동보장구 사용자의 이동권 보장을 위한
-QR 기반 수리 이력 관리 시스템
+# <a name="top"></a>🛠 수리수리 마수리 – 전동보장구 수리이력 관리 시스템
+
+<div align="center">
+
+**2025 Kakao [Tech for Impact](https://techforimpact.io/) 참여 프로젝트**  
+전동보장구 사용자의 이동권 보장을 위한  
+**QR 기반 수리 이력 관리 시스템**
 
 </div>
 
