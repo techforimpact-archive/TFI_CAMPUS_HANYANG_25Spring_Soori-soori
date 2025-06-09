@@ -1,7 +1,8 @@
+🛠 수리수리 마수리 – 전동보장구 수리이력 관리 시스템
 
-**2025 Kakao [Tech for Impact](https://techforimpact.io/) 참여 프로젝트**  
-전동보장구 사용자의 이동권 보장을 위한  
-**QR 기반 수리 이력 관리 시스템**
+2025 Kakao Tech for Impact 참여 프로젝트
+전동보장구 사용자의 이동권 보장을 위한
+QR 기반 수리 이력 관리 시스템
 
 </div>
 
