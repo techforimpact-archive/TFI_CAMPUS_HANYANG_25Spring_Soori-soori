@@ -1,0 +1,10 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["src/main.tsx", "src/vite-env.d.ts"],
+  "project": ["src/**/*.ts", "src/**/*.tsx"],
+  "ignoreDependencies": ["@typescript-eslint/parser", "eslint-import-resolver-typescript"],
+  "ignoreBinaries": ["rimraf"],
+  "ignore": ["**/*.d.ts"],
+  "ignoreExportsUsedInFile": true,
+  "paths": { "@/*": ["src/*"] }
+}

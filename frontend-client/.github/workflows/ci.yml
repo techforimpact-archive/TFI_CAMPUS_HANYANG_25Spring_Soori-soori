@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [assigned]
+
+jobs:
+  quality:
+    name: Check quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/pnpm-setup-node
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check
+        run: pnpm ci:type
+
+      - name: Check formatting
+        run: pnpm ci:format
+
+      - name: Lint
+        run: pnpm ci:lint
+
+      - name: Dead code analysis
+        run: pnpm ci:knip
+
+      - name: Build
+        run: pnpm build
