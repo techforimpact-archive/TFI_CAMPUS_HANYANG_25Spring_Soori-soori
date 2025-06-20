@@ -1,9 +1,12 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/Jaemani/power_assist_device_helper_backend
+	branch = main
 [submodule "frontend/client"]
 	path = frontend/client
 	url = https://github.com/oikkoikk/soo-ri
+	branch = main
 [submodule "frontend/admin"]
 	path = frontend/admin
 	url = https://github.com/Jaemani/soo-ri-admin
+	branch = main
